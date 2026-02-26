@@ -18,6 +18,8 @@
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
     --default-font-family: var(--font-sans);
@@ -404,6 +406,12 @@
   .gap-\[50px\] {
     gap: 50px;
   }
+  .rounded-\[4px\] {
+    border-radius: 4px;
+  }
+  .rounded-\[6px\] {
+    border-radius: 6px;
+  }
   .rounded-\[20px\] {
     border-radius: 20px;
   }
@@ -418,6 +426,14 @@
     border-style: var(--tw-border-style);
     border-width: 1.2px;
   }
+  .border-\[1\.4px\] {
+    border-style: var(--tw-border-style);
+    border-width: 1.4px;
+  }
+  .border-\[1\] {
+    border-style: var(--tw-border-style);
+    border-width: 1;
+  }
   .border-\[1px\] {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -431,6 +447,9 @@
   }
   .border-\[\#30D7BA\] {
     border-color: #30D7BA;
+  }
+  .border-\[\#D0D0D0\] {
+    border-color: #D0D0D0;
   }
   .border-\[gray\] {
     border-color: gray;
@@ -452,6 +471,12 @@
   }
   .bg-\[\#03D6F3\] {
     background-color: #03D6F3;
+  }
+  .bg-\[\#D0D0D0\] {
+    background-color: #D0D0D0;
+  }
+  .bg-\[\#EFEFEF\] {
+    background-color: #EFEFEF;
   }
   .bg-white {
     background-color: var(--color-white);
@@ -490,6 +515,10 @@
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-\[10px\] {
     font-size: 10px;
